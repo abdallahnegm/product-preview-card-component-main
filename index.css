@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 50px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.top{
+    display: flex;
+    justify-content:center;
+}
+.container{
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+@media (min-width:768px) {
+    .container{ margin: 100px}
+}
+@media (max-width:767px) {
+    .container{flex-direction: column; margin: 15px;margin-top: 25px;}
+}
+.container .image img{
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.text{
+    padding: 30px;
+}
+.container .text p:first-child{
+    letter-spacing: 3px;
+    display: inline-block;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.text h2{
+    width:130px;
+    font-weight: bold;
+
+}
+@media (max-width:767px) {
+    .text h2{
+        margin:  15px 0;
+        width: 200px;
+    }
+}
+.text p:last-of-type{
+    color: hsl(228, 12%, 48%);
+    width:200px;
+    font-size: 14px;
+    margin: 20px 0 0;
+    line-height: 22px;
+}
+@media (max-width:767px) {
+    .text p:last-of-type{
+        max-width: 100%;
+    }
+}
+.text span{
+    display: inline-block;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+.text del{
+    color: hsl(228, 12%, 48%);
+}
+.text button{
+    background-color:hsl(158, 36%, 37%);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    color: white;
+    margin-top: 30px;
+}
+.text button:hover{
+    background-color: hsl(158, 83%, 12%)
+}
+.text button i{
+    color: white;
+    margin-right: 5px;
+}
